@@ -27,7 +27,7 @@ class Trip {
         return `${this.destination}: Miles - ${this.miles}; MPG - ${mpg}`;
     }
 }
-let trips  = [];
+/* let trips  = [];
 const alltrips = {
         push: (trip) => {
             if (trip instanceof Trip) {
@@ -51,6 +51,35 @@ const alltrips = {
             str += "\nCumulative MPG: " + this.totalMpg().toFixed(1);
             return str;
         }
-};
+}; */
+
+const alltrips = ( () => {
+     const trips = [];
+    // public methods
+    return {
+        push(trip)  {
+            if (trip instanceof Trip) {
+                trips.push(trip);
+            }
+        },
+        totalMpg() {
+            let totalMiles = 0;
+            let totalGallons = 0;
+            for (let trip of trips) {
+                totalMiles += trip.miles;
+                totalGallons += trip.gallons;
+            }
+            return totalMiles / totalGallons;
+        },
+        toString() {
+            let str = "";
+            for (let trip of trips) {
+                str += trip.toString() + "\n";
+            }
+            str += "\nCumulative MPG: " + this.totalMpg().toFixed(1);
+            return str;
+        }
+    };
+})();
 
 
