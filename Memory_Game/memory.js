@@ -243,8 +243,8 @@ function clickOnCards() {
 function calculateScore() {
   yourScore = Math.round(correct / attempts * 100);
   $("#yourScore").text(yourScore);
-  setHighScore(yourScore);
   if (correct === (num_cards) / 2) {
+    setHighScore(yourScore);
     finishMessage(yourScore);
   }
 }
