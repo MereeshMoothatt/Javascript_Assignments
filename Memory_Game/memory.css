@@ -1,0 +1,116 @@
+body {
+    justify-content: center;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color: white;
+    width: 750px;  
+    margin: 0 auto;
+    border: 3px solid blue;
+    padding: 0 2em 1em;
+}
+h1 { 
+    font-size: 150%;
+    color: blue;
+    margin-bottom: .5em;
+}
+label {
+    float: left;
+}
+input, select { 
+    width: 10em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+input[type=checkbox] { 
+    width: 2em;
+}
+header p {
+	margin: 0 2em 1em 0;
+}
+#new_game, #player, #high_score, #correct {
+	float: left;
+}
+#cards img {
+    height: 100px;
+    width: 80px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    float: left; 
+    border-radius: 10px;
+}
+.clear {
+    clear: both;
+}
+
+#nav {
+	margin:0;
+	padding:0;
+    background:lightgray 0 0 repeat-x;
+    float:left;
+	width:100%;
+     text-decoration:none;
+	font: 1em/1em Arial, Helvetica, sans-serif;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#nav li {
+	display:block;
+    float: left;
+    padding:5px 0px 0px 5px;
+	margin:0;
+}
+#nav a:link {
+	color:#000;
+	background:white;
+    padding:15px 40px 4px 10px;
+    text-decoration:none;
+    font-size: 14px;
+    float:left;
+	width:auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top: solid 1px;
+    border-right:solid 1px;
+    border-left:solid 1px;
+}
+
+#nav a:visited {
+    color:#000;
+}
+
+
+#nav a:hover {
+    color: #000;
+    background: lightblue;
+}
+
+#nav a:current {
+    color: white;
+    background: blue;
+}
+
+#tabs {
+    border: lightgray solid 1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+#tabs-3 {
+    margin: 0 auto;
+}
+
+img {
+    width: 10%;
+}
+
+.style_list li {
+    display: inline;
+}
+
+fieldset {
+    min-width: 100% !important;
+    /* padding: 0; */
+    /* margin: 0; */
+    /* border: 0; */
+}
