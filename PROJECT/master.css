@@ -1,0 +1,163 @@
+/* ////////////////////////////////////////////////////////////employee login styles////////////////////////////////////////// */
+
+body{
+    background-color: #9EC5FE;
+}
+.bodycontainer{
+    position: relative;
+    height: 100vh;
+}
+.rowclass{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+}
+
+#error {
+    color: red;
+}
+
+/*///////////////////////////////////////// media queries /////////////////////////////////////////////////*/
+
+
+
+/* /////////////////////////////////////////////////////////// employee dashboard page styles////////////////////////////////////// */
+/* //////////////////////////////////////////////global styles//////////////////// */
+/* .btn{
+    width: 226px;
+} */
+/* ///////////////////////////////////////section 1 styles////////////////////////////////// */
+.navbar{
+    background-color: #9EC5FE;
+}
+.navbarfluidcontainer{
+    padding: 3%;
+}
+.navbar-brand{
+    color: white;
+}
+.employeedash-container{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+/* /////////////////////////////////////////section 2 styles ///////////////////////////////////////*/
+.section2-container{
+    background-color: white;
+    padding: 3%;
+}
+.inline-txt{
+    display: inline;
+}
+
+/* ////////////////////////////////////////section 3 styles//////////////////////////////////////////// */
+.section3-container{
+    background-color: #ECECEC;
+    padding: 1%;
+}
+.section3-innercontainer1{
+    background-color: white; 
+    padding: 0.5%;
+}
+.section3-innercontainer2{
+    background-color: white; 
+    padding: 0.5%;
+}
+/*///////////////////////////////////////// section 4 styles ///////////////////////////////////////////*/
+.section4-container{
+    background-color: white;
+    padding: 3%;
+}
+
+/*///////////////////////////////////////// media queries /////////////////////////////////////////////////*/
+@media only screen and (max-width: 780px) 
+{
+    .section3-innercontainer1{
+        display: none;
+    }
+    .responsiveSizeSection{
+        padding-bottom: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+    } 
+}
+@media only screen and (min-width: 780px) 
+{
+    .Section3-res-element-under780{
+        display: none;
+    }
+}
+
+
+
+
+
+/* /////////////////////////////////////////////////////////// Admin dashboard page styles////////////////////////////////////// */
+/* /////////////////////////global styles/////////////////// */
+.admindashcontainer{
+    padding: 3%;
+}
+/* /////////////////////section 1 styles//////////////////// */
+.admdash-sec1-cont{
+    background-color: white;
+    padding: 0.5%;
+}
+.adminnavbar{
+    background-color: white;
+}
+/*///////////////// section 2 styles ///////////////////////*/
+.admdash-sec2-cont{
+    background-color: white;
+    padding: 3%;
+}
+.alldropdown{
+    display: inline;
+}
+.inlinePelement{
+    display: inline;
+    /* float: right; */
+}
+.collapse-show{
+    padding-top: 20px;
+}
+.adminDashButtons{
+    width: 226px;
+}
+/* /////////////////section 3 styles////////////////////// */
+.admdash-sec3-cont{
+    background-color: white;
+    padding: 3%;
+}
+/*/////////////////// section 4 styles////////////////////// */
+.admdash-sec4-cont{
+    background-color: white;
+    padding: 3%;
+}
+/* ///////////////////section 5 styles///////////////////// */
+.admdash-sec5-cont{
+    background-color: white;
+    padding: 3%;
+}
+/*//////////////////// section 6 styles //////////////////////*/
+.admdash-sec6-cont{
+    background-color: white;
+    padding: 3%;
+}
+
+
+/*////////////////////////////////////////////////// view_employee_details php page styles ////////////////////////////////////*/
+.viewEmployeeTableHeader{
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+.goBackButton{
+    margin-top: 10px;
+}
+
+/* ///////////////////////////////////////////////////select_view_employee form styles /////////////////////////////////////////*/
+.selectFormTableColumn{
+    padding-bottom: 20px;
+}
+
